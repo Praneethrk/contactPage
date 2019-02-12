@@ -30,11 +30,11 @@ h4 span {
 }
 
 .cordinator {
-    height: 120px;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
     padding: 10px;
     margin: 0.3em auto;
 }
+
 
 .address {
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
@@ -54,6 +54,10 @@ h4 span {
     padding: 10px;
     font-family: 'Lato', sans-serif;
 
+}
+
+.invisible{
+    color:transparent;
 }
 
 h2 {
@@ -102,7 +106,7 @@ h1 {
     }
 }
 
-.cordinator {
+.cordinator ,.cordinator1{
 
     box-sizing: border-box;
     border: 5px white solid;
