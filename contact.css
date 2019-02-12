@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:900');
 
 body {
-    background-image: linear-gradient(#1a8cb8, #49a09d);
+    background-image: linear-gradient(#02386E, #0052A2);
 }
 
 h4 span {
@@ -59,17 +59,28 @@ h4 span {
 h2 {
     margin-bottom: 10rem;
     font-family: 'Lato', sans-serif;
-    color:white;
+    color: white;
 }
 
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+
+}
+
+.travel {
+    padding: 1rem 1rem 1rem 1rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+}
 
 .end {
     margin: 3em auto;
 }
 
-.page-footer{
+.page-footer {
     background-color: #003366;
-    opacity: .9;
+    opacity: .7;
     color: aliceblue;
 }
 
@@ -100,4 +111,3 @@ h2 {
     transform: translatey(0px);
     animation: float 6s ease-in-out infinite;
 }
-
