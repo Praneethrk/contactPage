@@ -84,7 +84,6 @@ h1 {
 
 .page-footer {
     background-color: #003366;
-    opacity: .7;
     color: aliceblue;
 }
 
@@ -106,7 +105,7 @@ h1 {
     }
 }
 
-.cordinator ,.cordinator1{
+.cordinator {
 
     box-sizing: border-box;
     border: 5px white solid;
@@ -114,4 +113,9 @@ h1 {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
     transform: translatey(0px);
     animation: float 6s ease-in-out infinite;
+}
+
+a{
+    color: aliceblue;
+    font-size: 1.3rem;
 }
